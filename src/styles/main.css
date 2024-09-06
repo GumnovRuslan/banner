@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.description {
+  max-width: 500px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.2s;
+  color: var(--color-text-second);
+}
+
+.link:hover {
+  color: #d8bd72;
+}
+
+.link:hover .link__icon{
+  color: #6464fcf7;
+}
+
+.link__icon {
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background: #dcdcdc;
+  transition: 0.2s;
+}

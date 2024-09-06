@@ -1,0 +1,41 @@
+.styles {
+  color: var(--color-text-primary);
+}
+
+.styles h1 , h2, h3 {
+  font-weight: 700;
+}
+
+.styles h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.styles p {
+  font-size: 20px;
+  color: var(--color-text-second);
+}
+
+.styles a:not([class]) {
+  position: relative;
+  transition: 0.2s;
+  font-weight: 700;
+  color: var(--color-text-second);
+  text-decoration: none;
+}
+
+.styles a:not([class])::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transform: translateY(-2px);
+  background-color: currentColor;
+}
+
+.styles a:not([class]):hover {
+  /* color: #87e0ed; */
+  color: #d8bd72;
+}

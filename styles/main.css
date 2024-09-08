@@ -1,12 +1,9 @@
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+.main {
+  padding-top: 20px;
 }
 
 .description {
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .link {
@@ -29,8 +26,12 @@
   color: black;
   padding: 7px;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background: #dcdcdc;
   transition: 0.2s;
+}
+
+.title {
+  text-align: center;
 }
